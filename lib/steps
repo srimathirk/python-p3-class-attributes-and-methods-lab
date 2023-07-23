@@ -1,0 +1,20 @@
+step-1: create class Song:
+step-2: create attributes-
+step-3: initialize attributes __init__(name,artist,genre)
+step-4: create class attribute count= 0(to keep track of new songs)
+step-5: call a class method add_song_to_count()(that increments the count value by 1)//cls.count += 1
+step-6: create class methods-add_to_genres()(adds any new genres to class attribute(genres a list of unique genres)):
+step-7: create class attribute genres = []
+step-8: genre count should count genres for each song created, should not have duplicates
+        In add_to_genres(check genres.count = 0 if true then set genre_count = 1)else genre_count +=1
+        add this method to init so it keeps track for each song
+step-9: create class method add_to_artists() adds new artists to class attribute artists list it should be unique like genres.
+step-10: create class attribute artists=[]
+step-11: artist count should count artists for each song created, should not have duplicates
+         In add_to_artists(check artistss.count = 0 if true then set artist_count = 1)else artist_count +=1
+         add this method to init so it keeps track for each song
+step-12: create class method: add_to_genre_count() adds dicitionary to class attribute: genre_count={genre(key):number of songs(value)}
+        gets a genre_count from add_to_genres by iterating genres list check for genre and number of songs if already exist increment dict returns to method add_to_genre_count()
+step-13: create class method: add_to_artist_count() adds dicit to class attribute: artist_count={artist(key):numberof songs(value)}
+        similar to genre_count artist_count returns dict from add_to_artists to add_to_artist_count().
+        
